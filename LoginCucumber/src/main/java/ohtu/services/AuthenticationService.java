@@ -29,7 +29,7 @@ public class AuthenticationService {
             return false;
         }
 
-        if (invalid(username, password)) {
+        if (!valid(username, password)) {
             return false;
         }
 
@@ -38,9 +38,15 @@ public class AuthenticationService {
         return true;
     }
 
-    private boolean invalid(String username, String password) {
-        // validity check of username and password
-
-        return false;
+    private boolean valid(String username, String password) {
+        return validUsername(username) && validPassword(password);
+    }
+    
+    private boolean validUsername(String username) {
+        return username.matches("[a-z]{3,}");
+    }
+    
+    private boolean validPassword(String password) {
+        return password.matches("^(?=.*[0-9@#$%^&+=]).{8,}$");
     }
 }

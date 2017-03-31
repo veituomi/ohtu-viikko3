@@ -21,6 +21,16 @@ public class Stepdefs {
     public void command_login_selected() throws Throwable {
         inputLines.add("login");
     }
+    
+    @Given("^command \"([^\"]*)\" is selected$")
+    public void command_x_is_selected(String cmd) throws Throwable {
+        inputLines.add(cmd);
+    }
+    
+    @Given("user \"([^\"]*)\" with password \"([^\"]*)\" is created")
+    public void user_with_username_and_password_is_created(String username, String password) throws Throwable {
+        auth.createUser(username, password);
+    }
 
     @When("^username \"([^\"]*)\" and password \"([^\"]*)\" are entered$")
     public void a_username_and_password_are_entered(String username, String password) throws Throwable {
