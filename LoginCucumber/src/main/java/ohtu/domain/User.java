@@ -9,6 +9,12 @@ public class User {
         this.username = username;
         this.password = password;
     }
+    
+    public User(String usernameTabPassword) {
+        String[] parts = usernameTabPassword.split("\t");
+        this.username = parts[0];
+        this.password = parts[1];
+    }
 
     public String getPassword() {
         return password;
