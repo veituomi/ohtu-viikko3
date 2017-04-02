@@ -1,0 +1,5 @@
+Retrospektiivin tarkoituksena on kehittää työryhmän työskentelyä kokoamalla jäsenten havaitsemia, sekä hyviä että huonoja, asioita aiemmasta työskentelystä. Siihen käytettävä aika voi vaihdella 10 minuutista tuntiin asti.
+
+Tapaamisen aikana kirjoitetaan taululle tai paperille asioita, joihin jäsenet kokevat tarpeelliseksi kiinnittää huomio työskentelyn kehittämiseksi. Esille tulevat asiat luokitellaan retrospektiivin tyypin mukaan tunnesidonnaisesti iloisiin, surullisiin ja vihaa aiheuttaviin kategorioihin tai suoraan rationaalisesti aloitettaviin, lopetettaviin, jatkettaviin, vähennettäviin ja lisättäviin kategorioihin.
+
+Jos esille tuodaan paljon erilaisia huomioita, voi olla syytä rajoittaa ryhmänä läpi käyntiä tärkeimpiin, mikä pannaan käytäntöön äänestämällä. Oleellista on pitää tapaaminen formaalina ja käyttää aika hyödylliseen.
